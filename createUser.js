@@ -19,7 +19,7 @@ describe('Create User', async function(){
 
         const Responsedata = await response.json();
 
-        console.log("Response : " + JSON.stringify(Responsedata, null, 1));
+        //console.log("Response : " + JSON.stringify(Responsedata, null, 1));
 
         assert.strictEqual(response.status, 201, "Status harus 201");
 
